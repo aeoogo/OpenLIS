@@ -29,6 +29,7 @@ gem 'puma'
 gem 'rails-html-sanitizer'
 gem 'rails-i18n'
 gem 'sass-rails'
+gem 'scrypt'
 gem 'turbolinks'
 gem 'uglifier'
 
@@ -43,7 +44,6 @@ group :development, :test do
 end
 
 group :development do
-  gem 'bcrypt_pbkdf'
   gem 'brakeman', require: false
   gem 'bullet'
   # gem 'capistrano-maintenance'
